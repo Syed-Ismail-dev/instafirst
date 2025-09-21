@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+  
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5em;
+    position: relative;
+}
+.insta{
+    font-family: "Dancing Script";
+    height: 10%;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.rside{
+box-sizing: border-box;
+width: 15%;
+height: 100%;
+display: flex;
+flex-direction: column;
+gap: 1em;
+justify-content: center;
+border-right: 1px solid rgba(91, 88, 88, 0.674);
+margin-left: 2em;
+margin-top: 1em;
+
+}
+.allmeanu{
+padding-top: 1em;
+
+height: 70%;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 1.5em;
+font-size: 1.2em;
+font-weight: 200;
+
+}
+.bottom{
+    box-sizing: border-box;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 1.2em;
+    font-weight:500;
+}
+.home, .search,.explore,.reels,.msg,.noti,.creat,.dash,.profile,.more,.meta {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.ihome,.isearch,.iexplore,.ireels,.imsg,.inoti,.icreat,.idash,.iprofile,.imore,.imeta{
+  width: 1.5em;
+  height: 1.5em;
+  fill:white;
+  display: flex;
+  justify-content: center;
+}
+
+.white{
+    width: 80%;
+    height: 80%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.iprofile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.icreat {
+    width: 10%;
+    height: 100%;
+    border: 0.1em solid white;
+    border-radius: 0.2em;
+}
+
+.mid {
+    
+    width: 57%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2em;
+    
+
+}
+.stories {
+    width: 100%;
+    height: 20%;
+ 
+    display: flex;
+    align-items: center;
+    gap: 1em;
+ 
+}
+
+.round{
+width: 90px;
+height: 90px;
+background-color: bisque;
+border-radius: 50%;
+position: relative;
+border: 5px solid blue;
+
+}
+
+
+
+.post{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(235, 4, 192);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lside{
+ width: 23%;
+}
