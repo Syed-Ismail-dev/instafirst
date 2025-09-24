@@ -46,18 +46,9 @@ border-right: 1px solid rgba(91, 88, 88, 0.674);
 margin-left: 2em;
 margin-top: 1em;
 padding-bottom: 2em;
+position:fixed;
+}
 
-}
-.rside::after{
-    content: " ";
-    width: 15%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-   
-    z-index: -1;
-}
 .allmeanu{
 padding-top: 1em;
 
@@ -67,7 +58,7 @@ display: flex;
 flex-direction: column;
 gap: 1.5em;
 font-size: 1.2em;
-font-weight: 200;
+font-weight: 100;
 
 }
 .bottom{
@@ -114,8 +105,8 @@ font-weight: 200;
 }
 
 .mid {
-    
-    width: 5o%;
+    margin-left: 26%;
+    width: 38%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -149,38 +140,26 @@ position: relative;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
+    border: 5px solid black;
 }
 
 .round::after{
     content: " ";
-    height: 118%;
-    width: 118%;
+    height: 121%;
+    width: 151%;
     border-radius: 50%;
     position: absolute;
     background-image: linear-gradient(rgba(255, 0, 0, 0.697),rgba(128, 0, 128, 0.725),rgba(255, 0, 0, 0.785),rgba(255, 166, 0, 0.736),rgba(255, 255, 0, 0.604),
         rgba(255, 0, 0, 0.785));
-    top: -7px;
-    left: -7px;
-    z-index: -1;
+    top: -3px;
+    left: -3px;
+    /* z-index: -1; */
 }
-.round::before{
-    content: " ";
-        height: 110%;
-        width: 110%;
-        border-radius: 50%;
-        position: absolute;
-        background-color: black;
-        top: -4px;
-        left: -4px;
-       
-}
-
 
 
 .post{
     width: 100%;
     height: 80%;
-    /* background-color: rgb(235, 4, 192); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +168,6 @@ position: relative;
 .rpost{
     width: 74%;
     height: 45em;
-    /* background-color: brown; */
     border: 0.01em solid rgba(128, 128, 128, 0.366);
     border-left: none;
    border-right: none;
@@ -198,7 +176,6 @@ position: relative;
 .Uname{
     width: 100%;
     height: 3em;
-    /* background-color: antiquewhite; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -339,20 +316,158 @@ height: 1.5em;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .lside{
- width: 30%;
+ width: 45%;
+ /* background-color: aqua; */
+ margin-left: 1em;
+}
+.follow{
+    margin-left: 2em;
+    margin-top: 3em;
+    width: 80%;
+    height: 30em;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.Sprofile{
+    width: 100%;
+    height: 3em;
+    /* background-color: black; */
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2em;
+
+}
+.simg img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.sname{
+    margin-left: -1em;
+    width: 10em;
+    /* background-color: blueviolet; */
+}
+
+.suername{
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sbtn{
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.suggest{
+    width: 100%;
+    /* background-color: bisque; */
+    height: 19em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.sug{
+    width: 100%;
+    height: 1em;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.suprofile{
+    width: 100%;
+    height: 3em;
+    /* background-color: blue; */
+    display: flex;
+    gap: 1em;
+    
+}
+.suphoto img {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+.sunames{
+    width: 10em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 1px;
+}
+.sufollow{
+    width: 7em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    height: 2em;
+    width: 100%;
+    border: none;
+    background-color: rgb(5, 5, 181);
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2em;
+}
+.nofollowed{
+    color: grey;
+}
+.suggestion{
+        color: rgb(178, 171, 171);
+}
+.seeall{
+    font-weight: 600;
+    }
+.company{
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: grey;
+}
+.cabout{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.chat{
+    height: 13em;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    box-sizing: border-box;
+
+}
+.cmsg{
+    margin-right: 1.7em;
+    background-color: rgb(38, 36, 36);
+    width: 55%;
+    padding: 10px;
+    border-radius: 1.5em;
+   display: flex;
+   gap: 5px;
+   justify-content: space-between;
+   align-items: center;
+}
+.ff{
+    display: flex;
+    gap: 10px;
+    margin-left: 3px;
+    font-size: 1.3em;
+}
+.meto{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
 }
